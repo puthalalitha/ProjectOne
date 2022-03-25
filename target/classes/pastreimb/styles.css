@@ -1,0 +1,39 @@
+#welcome{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.row-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(206, 206, 206)3;
+}
+
+.column{
+    width: 110px;
+    height: 40px;
+    background-color: #a8cfe5;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+ 
+
+#pastreimb-container {
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.btn1{
+    background-color: #a8cfe5;
+}
+
+
+ 

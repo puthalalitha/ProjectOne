@@ -1,0 +1,22 @@
+
+#welcome{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.btn-primary{
+    width: 50%;
+    margin-top: 50px;
+}
+.img-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.active{
+    color: gray;
+}

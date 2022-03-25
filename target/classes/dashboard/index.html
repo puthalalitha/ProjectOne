@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Reimbursement</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./register/index.html">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+            <div id="welcome"><h2>Dashboard</h2></div>
+            <ul class="list-group-flush">
+                <h3>Employee View</h3>
+                <li class="list-group-item"><a class="nav-link active" id="reimb-1" aria-current="page" href="http://localhost:9000/pastreimb">Employee View Past Tickets</a></li>
+                <!-- <li class="list-group-item"><a class="nav-link active" id="reimb-2" aria-current="page" href="http://localhost:9000/addreimb">To Add Reimbursement</a></li> -->
+                <h3>Finance Manager View</h3>
+                <li class="list-group-item"><a class="nav-link active" id="reimb-3" aria-current="page" href="http://localhost:9000/allreimburslist">Finance Manager View all Reimbursements</a></li>
+                <li class="list-group-item"><a class="nav-link active" id="reimb-4" aria-current="page" href="http://localhost:9000/pendingreimb">Finance Manager View Reimbursements by Pending Status</a></li>
+                <li class="list-group-item"><a class="nav-link active" id="reimb-5" aria-current="page" href="http://localhost:9000/approvedreimb">Finance Manager View Reimbursements by Approved Status</a></li>
+                <li class="list-group-item"><a class="nav-link active" id="reimb-6" aria-current="page" href="http://localhost:9000/deniedreimb">Finance Manager View Reimbursements by Denied Status</a></li>
+ 
+              </ul>
+
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
